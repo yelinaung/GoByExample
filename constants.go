@@ -7,19 +7,19 @@ import "math"
 const s string = "constant"
 
 func main() {
-  fmt.Println(s)
+	fmt.Println(s)
 
-  // A const state can appear anywhere
-  const n = 5000000
+	// A const state can appear anywhere
+	const n = 5000000
 
-  // arithmetic with arbitrary precision
-  const d = 3e20 / n
-  fmt.Println(d)
+	// arithmetic with arbitrary precision
+	const d = 3e20 / n
+	fmt.Println(d)
 
-  // explict cast
-  fmt.Println(int64(d))
+	// explict cast
+	fmt.Println(int64(d))
 
-  // math package
-  fmt.Println(math.Sin(n))
+	// math package
+	fmt.Println(math.Sin(n))
 
 }
